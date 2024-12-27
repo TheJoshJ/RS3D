@@ -46,7 +46,7 @@ export const MonthlyExpChart = ({
   }, [chartData]);
 
   const emptyChartData = Array.from({ length: 12 }).map((_, index) => ({
-    date: new Date(Date.now() - index * 30 * 24 * 60 * 60 * 1000) // Approx. last 12 months
+    date: new Date(Date.now() - index * 30 * 24 * 60 * 60 * 1000)
       .toISOString()
       .split("T")[0],
     xpGain: 0,
@@ -105,19 +105,17 @@ export const MonthlyExpChart = ({
                 const date = new Date(value);
                 return date.toLocaleDateString("en-US", {
                   month: "short",
-                  day: "numeric",
                 });
               }}
             />
             <ChartTooltip
               content={
                 <ChartTooltipContent
-                  className="w-[150px]"
+                  className="w-[200px]"
                   nameKey="xpGain"
                   labelFormatter={(value) => {
                     return new Date(value).toLocaleDateString("en-US", {
                       month: "short",
-                      day: "numeric",
                       year: "numeric",
                     });
                   }}

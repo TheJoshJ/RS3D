@@ -6,28 +6,22 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { getPlayerData } from "@/hooks/getPlayerData";
+import { PlayerData } from "@/hooks/getPlayerData";
 import { formatNumber } from "@/utils/formatNumber";
 import { getSkillName } from "@/utils/getSkillName";
 import { Skeleton } from "@/components/ui/skeleton";
 import LevelBar from "./LevelBar";
-import { Button } from "@/components/ui/button";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { MonthlyExpChart } from "./MonthlyExpChart";
 import { getSkillImage } from "@/utils/getSkillImage";
 
 interface PlayerStatsTableProps {
-  username: string | undefined;
+  playerData: PlayerData | undefined;
+  loading: boolean;
 }
 
-const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
-  const {
-    data: playerData,
-    isLoading: isPlayerDataLoading,
-    error: playerDataError,
-  } = getPlayerData(username || "");
-
+const QuestTable = ({ playerData, loading }: PlayerStatsTableProps) => {
   const [expandedRows, setExpandedRows] = useState<Record<number, boolean>>({});
 
   const toggleRow = (skillId: number) => {
@@ -38,7 +32,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
     });
   };
 
-  if (isPlayerDataLoading) {
+  if (loading) {
     return (
       <Table>
         <TableHeader>
@@ -50,7 +44,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {Array.from({ length: 24 }).map((_, index) => (
+          {Array.from({ length: 25 }).map((_, index) => (
             <TableRow key={index}>
               <TableCell>
                 <Skeleton className="h-5 w-[100%]" />
@@ -62,19 +56,15 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
                 <Skeleton className="h-5 w-[100%]" />
               </TableCell>
               <TableCell>
-                <Button variant="outline">
-                  <ChevronRight />
-                </Button>
+                <div className={"flex flex-row"}>
+                  <ChevronRight className={"border rounded"} />
+                </div>
               </TableCell>
             </TableRow>
           ))}
         </TableBody>
       </Table>
     );
-  }
-
-  if (playerDataError) {
-    return <div>Error: {playerDataError.message}</div>;
   }
 
   if (!playerData || !playerData.skillvalues) {
@@ -92,10 +82,60 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
           <TableHead className="w-[100px]">Skill</TableHead>
           <TableHead className="w-[100px]">Level</TableHead>
           <TableHead className="w-[100px]">Experience</TableHead>
-          <TableHead className="w-[100px]">Details</TableHead>
+          <TableHead className="w-[10px]">Details</TableHead>
         </TableRow>
       </TableHeader>
       <TableBody>
+        <TableRow key={"total"}>
+          <TableCell>
+            <div className="flex items-center space-x-2">
+              <img
+                src={"/skills/overall.png"}
+                alt={"Total Level"}
+                className="h-6 w-6"
+              />
+              <span>{"Total"}</span>
+            </div>
+          </TableCell>
+          <TableCell>
+            <div className="flex flex-row gap-2">
+              <div className="w-5">{playerData.totalskill}</div>
+            </div>
+          </TableCell>
+          <TableCell>{formatNumber(Math.round(playerData.totalxp))}</TableCell>
+          <TableCell>
+            <div className={"flex flex-row"}>
+              {!!expandedRows[-1] ? (
+                <ChevronDown
+                  className={"border rounded"}
+                  onClick={() => {
+                    toggleRow(-1);
+                  }}
+                />
+              ) : (
+                <ChevronRight
+                  className={"border rounded"}
+                  onClick={() => {
+                    toggleRow(-1);
+                  }}
+                />
+              )}
+            </div>
+          </TableCell>
+        </TableRow>
+        <>
+          {!!expandedRows[-1] && (
+            <TableRow>
+              <TableCell colSpan={4}>
+                <MonthlyExpChart
+                  key={-1}
+                  username={playerData.name || ""}
+                  skillId={-1}
+                />
+              </TableCell>
+            </TableRow>
+          )}
+        </>
         {sortedSkillValues.map((skill) => {
           const isExpanded = !!expandedRows[skill.id];
           return (
@@ -117,20 +157,25 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
                     <LevelBar skill={skill} />
                   </div>
                 </TableCell>
+                <TableCell>{formatNumber(Math.round(skill.xp / 10))}</TableCell>
                 <TableCell>
-                  {skill.level >= 99
-                    ? formatNumber(Math.round(skill.xp / 10))
-                    : formatNumber(skill.xp)}
-                </TableCell>
-                <TableCell>
-                  <Button
-                    variant="outline"
-                    onClick={() => {
-                      toggleRow(skill.id);
-                    }}
-                  >
-                    {isExpanded ? <ChevronDown /> : <ChevronRight />}
-                  </Button>
+                  <div className={"flex flex-row"}>
+                    {isExpanded ? (
+                      <ChevronDown
+                        className={"border rounded"}
+                        onClick={() => {
+                          toggleRow(skill.id);
+                        }}
+                      />
+                    ) : (
+                      <ChevronRight
+                        className={"border rounded"}
+                        onClick={() => {
+                          toggleRow(skill.id);
+                        }}
+                      />
+                    )}
+                  </div>
                 </TableCell>
               </TableRow>
               {isExpanded && (
@@ -138,7 +183,7 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
                   <TableCell colSpan={4}>
                     <MonthlyExpChart
                       key={skill.id}
-                      username={username || "tall n manly"}
+                      username={playerData.name || ""}
                       skillId={skill.id}
                     />
                   </TableCell>
@@ -152,4 +197,4 @@ const PlayerStatsTable = ({ username }: PlayerStatsTableProps) => {
   );
 };
 
-export default PlayerStatsTable;
+export default QuestTable;

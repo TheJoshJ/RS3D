@@ -34,3 +34,10 @@ const skillMap: Record<number, string> = {
     return skillMap[skillId];
   };
   
+
+  export const getSkillId = (skillName: string): number | undefined => {
+    const entry = Object.entries(skillMap).find(
+      ([, name]) => name.toLowerCase() === skillName.toLowerCase()
+    );
+    return entry ? Number(entry[0]) : undefined;
+  };

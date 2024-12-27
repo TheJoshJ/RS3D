@@ -30,9 +30,7 @@ function App() {
               <Route
                 key={"public-" + index}
                 path={route.path}
-                element={[
-                  <PageLayout key={index}>{route.element}</PageLayout >,
-                ]}
+                element={[<PageLayout key={index}>{route.element}</PageLayout>]}
               />
             ))}
 

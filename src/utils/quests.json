@@ -1258,7 +1258,7 @@
       }
     },
     {
-      "name": "Bar Crawl (miniquest) YOU STOPPED HERE",
+      "name": "Bar Crawl (miniquest)",
       "difficulty": 1,
       "members": true,
       "questPoints": 0,
@@ -1274,20 +1274,18 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Ancient Awakening",
-          "Dead and Buried",
-          "Unwelcome Guests",
-          "Murder on the Border",
-          "New Foundations",
-          "Town Hall (Tier 1)",
-          "Command Centre (Tier 1)",
-          "Workshop (Tier 1)",
-          "Chapel (Tier 1)",
-          "eastern border wall",
-          "Grove cabin (Tier 1)",
-          "Botanist's Workbench (Tier 1)"
+          "Ancient Awakening"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 60
+          }
+        ],
+        "other": [
+          "Must have built Grove Cabin (Tier 1)",
+          "Must have built Botanist's Workbench (Tier 1)"
+        ]
       }
     },
     {
@@ -1297,20 +1295,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Azzanadra's Quest",
-          "The Vault of Shadows",
-          "Shadow Realm",
-          "Kharid-et Dig Site",
-          "Raksha, the Shadow Colossus",
-          "Desperate Creatures",
-          "Desperate Measures",
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia"
+          "Azzanadra's Quest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archeology",
+            "level": 5
+          }
+        ]
       }
     },
     {
@@ -1320,7 +1312,40 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 30
+          },
+          {
+            "skill": "cooking",
+            "level": 30
+          },
+          {
+            "skill": "firemaking",
+            "level": 30
+          },
+          {
+            "skill": "magic",
+            "level": 30
+          },
+          {
+            "skill": "mining",
+            "level": 30
+          },
+          {
+            "skill": "smithing",
+            "level": 30
+          },
+          {
+            "skill": "strength",
+            "level": 30
+          },
+          {
+            "skill": "woodcutting",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -1345,7 +1370,16 @@
           "Dwarf Cannon",
           "Fishing Contest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 40
+          },
+          {
+            "skill": "smithing",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -1367,24 +1401,22 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "King of the Dwarves",
-          "Forgiveness of a Chaos Dwarf",
-          "Forgettable Tale of a Drunken Dwarf",
-          "The Giant Dwarf",
-          "Fishing Contest",
-          "Between a Rock...",
-          "Dwarf Cannon",
-          "Fishing Contest",
-          "My Arm's Big Adventure",
-          "Eadgar's Ruse",
-          "Druidic Ritual",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Mad Eadgar",
-          "Troll Stronghold area",
-          "Jungle Potion"
+          "King of the Dwarves"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 80
+          },
+          {
+            "skill": "smithing",
+            "level": 82
+          },
+          {
+            "skill": "strength",
+            "level": 85
+          }
+        ]
       }
     },
     {
@@ -1395,20 +1427,23 @@
       "requirements": {
         "quest": [
           "Horror from the Deep",
-          "Bar Crawl (miniquest)",
           "Dream Mentor",
-          "Lunar Diplomacy",
-          "The Fremennik Trials",
-          "Lost City",
-          "Glorious Memories",
-          "Mountain Daughter",
-          "The Fremennik Isles",
-          "The Fremennik Trials",
-          "Royal Trouble",
-          "Throne of Miscellania",
-          "The Fremennik Trials"
+          "Glorious Memories"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 75
+          },
+          {
+            "skill": "slayer",
+            "level": 65
+          },
+          {
+            "skill": "strength",
+            "level": 75
+          }
+        ]
       }
     },
     {
@@ -1420,7 +1455,12 @@
         "quest": [
           "What's Mine is Yours"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -1430,10 +1470,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Boric's Task I (miniquest)",
-          "What's Mine is Yours"
+          "Boric's Task I (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -1443,11 +1487,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Boric's Task II (miniquest)",
-          "Boric's Task I (miniquest)",
-          "What's Mine is Yours"
+          "Boric's Task II (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 60
+          }
+        ]
       }
     },
     {
@@ -1457,7 +1504,20 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 14
+          },
+          {
+            "skill": "farming",
+            "level": 14
+          },
+          {
+            "skill": "summoning",
+            "level": 14
+          }
+        ]
       }
     },
     {
@@ -1477,7 +1537,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "thieving",
+            "level": 5
+          }
+        ]
       }
     },
     {
@@ -1488,10 +1553,26 @@
       "requirements": {
         "quest": [
           "Pirate's Treasure",
-          "Rum Deal",
-          "Morytania"
+          "Rum Deal"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 42
+          },
+          {
+            "skill": "crafting",
+            "level": 45
+          },
+          {
+            "skill": "ranged",
+            "level": 40
+          },
+          {
+            "skill": "smithing",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -1512,10 +1593,21 @@
       "requirements": {
         "quest": [
           "The Blood Pact",
-          "Hazeel Cult",
-          "quest points"
+          "Hazeel Cult"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 31
+          },
+          {
+            "skill": "thieving",
+            "level": 33
+          }
+        ],
+        "other": [
+          "50 Quest Points"
+        ]
       }
     },
     {
@@ -1525,12 +1617,18 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City"
+          "Regicide"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 44
+          },
+          {
+            "skill": "fletching",
+            "level": 42
+          }
+        ]
       }
     },
     {
@@ -1542,7 +1640,12 @@
         "quest": [
           "Cook's Assistant"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 32
+          }
+        ]
       }
     },
     {
@@ -1553,15 +1656,7 @@
       "requirements": {
         "quest": [
           "The Light Within",
-          "Meeting History",
-          "The Temple at Senntisten",
-          "Plague's End",
-          "The World Wakes",
-          "Fate of the Gods",
-          "Dishonour among Thieves",
-          "Hazeel Cult",
-          "Missing, Presumed Death",
-          "Morytania"
+          "Dishonour among Thieves"
         ],
         "skill": []
       }
@@ -1573,19 +1668,22 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "Battle of the Monolith",
-          "Azzanadra's Quest",
-          "The Vault of Shadows",
-          "Shadow Realm",
-          "Kharid-et Dig Site",
-          "Raksha, the Shadow Colossus",
-          "Desperate Creatures",
-          "Desperate Measures",
-          "Desperate Times",
-          "base camp",
-          "Anachronia"
+          "Battle of the Monolith"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 74
+          },
+          {
+            "skill": "magic",
+            "level": 74
+          },
+          {
+            "skill": "slayer",
+            "level": 75
+          }
+        ]
       }
     },
     {
@@ -1607,8 +1705,7 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Civil War I (miniquest)",
-          "Daughter of Chaos"
+          "Civil War I (miniquest)"
         ],
         "skill": []
       }
@@ -1620,11 +1717,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Civil War II (miniquest)",
-          "Civil War I (miniquest)",
-          "Daughter of Chaos"
+          "Civil War II (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "farming",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -1644,7 +1744,28 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 30
+          },
+          {
+            "skill": "construction",
+            "level": 34
+          },
+          {
+            "skill": "crafting",
+            "level": 30
+          },
+          {
+            "skill": "hunter",
+            "level": 10
+          },
+          {
+            "skill": "thieving",
+            "level": 15
+          }
+        ]
       }
     },
     {
@@ -1654,10 +1775,7 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "Icthlarin's Little Helper"
         ],
         "skill": []
       }
@@ -1669,10 +1787,21 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "The Restless Ghost",
-          "Morytania"
+          "The Restless Ghost"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 20
+          },
+          {
+            "skill": "thieving",
+            "level": 25
+          }
+        ],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -1683,28 +1812,34 @@
       "requirements": {
         "quest": [
           "The Jack of Spades",
-          "Diamond in the Rough",
-          "Stolen Hearts",
           "Spirits of the Elid",
           "Missing My Mummy",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "The Golem",
-          "Diamond in the Rough",
-          "Dealing with Scabaras",
-          "Contact!",
-          "Icthlarin's Little Helper",
-          "Leela",
-          "Senliten's tomb",
-          "Senliten",
-          "Missing My Mummy",
-          "Garden of Tranquillity",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania"
+          "Dealing with Scabaras"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 30
+          },
+          {
+            "skill": "fishing",
+            "level": 72
+          },
+          {
+            "skill": "hunter",
+            "level": 73
+          },
+          {
+            "skill": "woodcutting",
+            "level": 47
+          }
+        ],
+        "other": [
+          "Achieve rank 3 overall Menaphos reputation",
+          "Bring Leela to Senliten's tomb",
+          "Fully restore Senliten from the 'Missing My Mummy' quest",
+          "Full completion of Missing My Mummy "
+        ]
       }
     },
     {
@@ -1716,7 +1851,16 @@
         "quest": [
           "Impressing the Locals"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 12
+          },
+          {
+            "skill": "woodcutting",
+            "level": 34
+          }
+        ]
       }
     },
     {
@@ -1727,22 +1871,7 @@
       "requirements": {
         "quest": [
           "Impressing the Locals",
-          "Harbinger (miniquest)",
-          "Impressing the Locals",
-          "Eye for an Eye (miniquest)",
-          "Impressing the Locals",
-          "Jed Hunter (miniquest)",
-          "Impressing the Locals",
-          "Flag Fall (miniquest)",
-          "Impressing the Locals",
-          "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port",
-          "Cyclosis",
-          "player-owned port"
+          "Harbinger (miniquest)"
         ],
         "skill": []
       }
@@ -1754,7 +1883,16 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 40
+          },
+          {
+            "skill": "divination",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -1764,16 +1902,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Unwelcome Guests",
-          "Murder on the Border",
-          "New Foundations",
-          "Town Hall (Tier 1)",
-          "Command Centre (Tier 1)",
-          "Workshop (Tier 1)",
-          "Chapel (Tier 1)",
-          "eastern border wall"
+          "Unwelcome Guests"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Must have built the eastern border wall"
+        ]
       }
     },
     {
@@ -1785,7 +1919,24 @@
         "quest": [
           "Tower of Life"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "fishing",
+            "level": 70
+          },
+          {
+            "skill": "herblore",
+            "level": 3
+          },
+          {
+            "skill": "hunter",
+            "level": 67
+          },
+          {
+            "skill": "thieving",
+            "level": 70
+          }
+        ]
       }
     },
     {
@@ -1795,13 +1946,26 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Contact!",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "Contact!"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 50
+          },
+          {
+            "skill": "firemaking",
+            "level": 21
+          },
+          {
+            "skill": "strength",
+            "level": 60
+          },
+          {
+            "skill": "thieving",
+            "level": 60
+          }
+        ]
       }
     },
     {
@@ -1813,7 +1977,16 @@
         "quest": [
           "The Lost Tribe"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 23
+          },
+          {
+            "skill": "thieving",
+            "level": 23
+          }
+        ]
       }
     },
     {
@@ -1826,12 +1999,29 @@
           "Shield of Arrav",
           "The Knight's Sword",
           "Family Crest",
-          "What Lies Below",
-          "Kudos",
-          "Historian Minas",
-          "Varrock Museum"
+          "What Lies Below"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 51
+          },
+          {
+            "skill": "hunter",
+            "level": 51
+          },
+          {
+            "skill": "mining",
+            "level": 59
+          },
+          {
+            "skill": "smithing",
+            "level": 54
+          }
+        ],
+        "other": [
+          "Claim Kudos from Historian Minas in Varrock Museum for completing Shield of Arrav"
+        ]
       }
     },
     {
@@ -1851,14 +2041,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Smoking Kills",
-          "The Restless Ghost",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "Smoking Kills"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "slayer",
+            "level": 70
+          }
+        ]
       }
     },
     {
@@ -1869,11 +2059,29 @@
       "requirements": {
         "quest": [
           "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania"
+          "Troll Stronghold"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 50
+          },
+          {
+            "skill": "magic",
+            "level": 50
+          },
+          {
+            "skill": "slayer",
+            "level": 10
+          },
+          {
+            "skill": "thieving",
+            "level": 53
+          }
+        ],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -1883,12 +2091,7 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Desperate Measures",
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia"
+          "Desperate Measures"
         ],
         "skill": []
       }
@@ -1900,13 +2103,21 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia"
+          "Desperate Times"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 50
+          },
+          {
+            "skill": "archaeology",
+            "level": 50
+          }
+        ],
+        "other": [
+          "Complete the base camp tutorial on Anachronia"
+        ]
       }
     },
     {
@@ -1919,7 +2130,20 @@
           "The Needle Skips",
           "You Are It"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 50
+          },
+          {
+            "skill": "mining",
+            "level": 50
+          },
+          {
+            "skill": "smithing",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -1930,10 +2154,25 @@
       "requirements": {
         "quest": [
           "Recruitment Drive",
-          "What's Mine is Yours",
-          "Morytania"
+          "What's Mine is Yours"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "fletching",
+            "level": 50
+          },
+          {
+            "skill": "runecrafting",
+            "level": 50
+          },
+          {
+            "skill": "smithing",
+            "level": 65
+          }
+        ],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -1965,23 +2204,9 @@
         "quest": [
           "Dimension of Disaster: Coin of the Realm",
           "Dimension of Disaster: Shield of Arrav",
-          "Dimension of Disaster: Coin of the Realm",
-          "Shield of Arrav",
           "Dimension of Disaster: Demon Slayer",
-          "Dimension of Disaster: Coin of the Realm",
-          "Demon Slayer",
-          "Shadow of the Storm",
           "Dimension of Disaster: Defender of Varrock",
-          "Dimension of Disaster: Coin of the Realm",
-          "Defender of Varrock",
-          "The Curse of Arrav",
-          "The Tale of the Muspah",
-          "Missing My Mummy",
-          "Defender of Varrock",
-          "Temple of Ikov",
-          "Trollheim",
-          "Senliten",
-          "Missing My Mummy"
+          "The Curse of Arrav"
         ],
         "skill": []
       }
@@ -2015,9 +2240,7 @@
         "quest": [
           "Dimension of Disaster: Coin of the Realm",
           "Demon Slayer",
-          "Shadow of the Storm",
-          "Demon Slayer",
-          "The Golem"
+          "Shadow of the Storm"
         ],
         "skill": []
       }
@@ -2043,10 +2266,21 @@
       "requirements": {
         "quest": [
           "Hazeel Cult",
-          "Missing, Presumed Death",
-          "Morytania"
+          "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 30
+          },
+          {
+            "skill": "thieving",
+            "level": 30
+          }
+        ],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -2057,46 +2291,40 @@
       "requirements": {
         "quest": [
           "Animal Magnetism",
-          "The Restless Ghost",
-          "Ernest the Chicken",
-          "Morytania",
           "Shadow of the Storm",
-          "Demon Slayer",
-          "The Golem",
           "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania",
           "Smoking Kills",
-          "The Restless Ghost",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts",
           "Missing My Mummy",
-          "Icthlarin's Little Helper",
-          "The Golem",
-          "Diamond in the Rough",
           "Dealing with Scabaras",
-          "Contact!",
-          "Icthlarin's Little Helper",
-          "Recipe for Disaster: Freeing King Awowogei",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
-          "Monkey Madness",
-          "The Grand Tree",
-          "Tree Gnome Village",
-          "Senliten",
-          "Leela",
-          "Senliten's tomb",
-          "Missing My Mummy",
-          "Garden of Tranquillity",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania"
+          "Recipe for Disaster: Freeing King Awowogei"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 64
+          },
+          {
+            "skill": "crafting",
+            "level": 68
+          },
+          {
+            "skill": "magic",
+            "level": 70
+          },
+          {
+            "skill": "ranged",
+            "level": 50
+          },
+          {
+            "skill": "thieving",
+            "level": 70
+          }
+        ],
+        "other": [
+          "Fully restore Senliten from the 'Missing My Mummy' quest",
+          "Bring Leela to Senliten's tomb",
+          "Full completion of Missing My Mummy"
+        ]
       }
     },
     {
@@ -2108,7 +2336,12 @@
         "quest": [
           "What's Mine is Yours"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -2119,10 +2352,14 @@
       "requirements": {
         "quest": [
           "Doric's Task I (miniquest)",
-          "What's Mine is Yours",
           "Death Plateau"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -2132,12 +2369,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task II (miniquest)",
-          "Doric's Task I (miniquest)",
-          "What's Mine is Yours",
-          "Death Plateau"
+          "Doric's Task II (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -2147,13 +2386,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task III (miniquest)",
-          "Doric's Task II (miniquest)",
-          "Doric's Task I (miniquest)",
-          "What's Mine is Yours",
-          "Death Plateau"
+          "Doric's Task III (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -2163,14 +2403,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task IV (miniquest)",
-          "Doric's Task III (miniquest)",
-          "Doric's Task II (miniquest)",
-          "Doric's Task I (miniquest)",
-          "What's Mine is Yours",
-          "Death Plateau"
+          "Doric's Task IV (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -2180,14 +2420,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task V (miniquest)",
-          "Doric's Task IV (miniquest)",
-          "Doric's Task III (miniquest)",
-          "Doric's Task II (miniquest)",
-          "Doric's Task I (miniquest)",
-          "Death Plateau"
+          "Doric's Task V (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 60
+          }
+        ]
       }
     },
     {
@@ -2197,13 +2437,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task VI (miniquest)",
-          "Doric's Task V (miniquest)",
-          "Doric's Task IV (miniquest)",
-          "Doric's Task III (miniquest)",
-          "Doric's Task II (miniquest)"
+          "Doric's Task VI (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 65
+          }
+        ]
       }
     },
     {
@@ -2213,13 +2454,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Doric's Task VII (miniquest)",
-          "Doric's Task VI (miniquest)",
-          "Doric's Task V (miniquest)",
-          "Doric's Task IV (miniquest)",
-          "Doric's Task III (miniquest)"
+          "Doric's Task VII (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "smithing",
+            "level": 70
+          }
+        ]
       }
     },
     {
@@ -2228,10 +2470,11 @@
       "members": false,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "quest points"
-        ],
-        "skill": []
+        "quest": [],
+        "skill": [],
+        "other": [
+          "33 Quest Points"
+        ]
       }
     },
     {
@@ -2241,9 +2484,7 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Lunar Diplomacy",
-          "The Fremennik Trials",
-          "Lost City"
+          "Lunar Diplomacy"
         ],
         "skill": []
       }
@@ -2266,12 +2507,17 @@
       "requirements": {
         "quest": [
           "Druidic Ritual",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Mad Eadgar",
-          "Troll Stronghold area"
+          "Troll Stronghold"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "herblore",
+            "level": 31
+          }
+        ],
+        "other": [
+          "Rescue Mad Eadgar from the Troll Stronghold area"
+        ]
       }
     },
     {
@@ -2281,7 +2527,12 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "hunter",
+            "level": 27
+          }
+        ]
       }
     },
     {
@@ -2291,7 +2542,20 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 20
+          },
+          {
+            "skill": "mining",
+            "level": 20
+          },
+          {
+            "skill": "smithing",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -2303,7 +2567,16 @@
         "quest": [
           "Elemental Workshop I"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "magic",
+            "level": 20
+          },
+          {
+            "skill": "smithing",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -2313,10 +2586,18 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Elemental Workshop II",
-          "Elemental Workshop I"
+          "Elemental Workshop II"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "defence",
+            "level": 33
+          },
+          {
+            "skill": "smithing",
+            "level": 33
+          }
+        ]
       }
     },
     {
@@ -2326,11 +2607,30 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Elemental Workshop III",
-          "Elemental Workshop II",
-          "Elemental Workshop I"
+          "Elemental Workshop III"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 41
+          },
+          {
+            "skill": "defence",
+            "level": 40
+          },
+          {
+            "skill": "runecrafting",
+            "level": 39
+          },
+          {
+            "skill": "smithing",
+            "level": 42
+          },
+          {
+            "skill": "thieving",
+            "level": 39
+          }
+        ]
       }
     },
     {
@@ -2340,7 +2640,20 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 50
+          },
+          {
+            "skill": "firemaking",
+            "level": 45
+          },
+          {
+            "skill": "magic",
+            "level": 13
+          }
+        ]
       }
     },
     {
@@ -2349,10 +2662,24 @@
       "members": true,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "quest points"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 36
+          },
+          {
+            "skill": "farming",
+            "level": 30
+          },
+          {
+            "skill": "firemaking",
+            "level": 20
+          }
         ],
-        "skill": []
+        "other": [
+          "21 Quest Points"
+        ]
       }
     },
     {
@@ -2362,15 +2689,26 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Recipe for Disaster: Freeing Evil Dave",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
-          "Gertrude's Cat",
-          "Shadow of the Storm",
-          "Demon Slayer",
-          "The Golem"
+          "Recipe for Disaster: Freeing Evil Dave"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 30
+          },
+          {
+            "skill": "cooking",
+            "level": 30
+          },
+          {
+            "skill": "herblore",
+            "level": 30
+          },
+          {
+            "skill": "magic",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -2381,17 +2719,7 @@
       "requirements": {
         "quest": [
           "Sins of the Father",
-          "Desperate Measures",
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia",
-          "Eye of Het II",
-          "Eye of Het I",
-          "City of Senntisten",
-          "Battle of the Monolith",
-          "Azzanadra's Quest"
+          "Eye of Het II"
         ],
         "skill": []
       }
@@ -2404,20 +2732,17 @@
       "requirements": {
         "quest": [
           "Impressing the Locals",
-          "Jed Hunter (miniquest)",
-          "Impressing the Locals",
-          "Flag Fall (miniquest)",
-          "Impressing the Locals",
-          "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port",
-          "Cyclosis",
-          "player-owned port"
+          "Jed Hunter (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 90
+          }
+        ],
+        "other": [
+          "Discover the island of Cyclosis in player-owned port"
+        ]
       }
     },
     {
@@ -2427,17 +2752,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "City of Senntisten",
-          "Battle of the Monolith",
-          "Azzanadra's Quest",
-          "The Vault of Shadows",
-          "Shadow Realm",
-          "Kharid-et Dig Site",
-          "Raksha, the Shadow Colossus",
-          "Desperate Creatures",
-          "Desperate Measures"
+          "City of Senntisten"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 65
+          }
+        ]
       }
     },
     {
@@ -2447,13 +2769,7 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Eye of Het I",
-          "City of Senntisten",
-          "Battle of the Monolith",
-          "Azzanadra's Quest",
-          "The Vault of Shadows",
-          "Raksha, the Shadow Colossus",
-          "Desperate Creatures"
+          "Eye of Het I"
         ],
         "skill": []
       }
@@ -2467,7 +2783,28 @@
         "quest": [
           "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 73
+          },
+          {
+            "skill": "divination",
+            "level": 75
+          },
+          {
+            "skill": "magic",
+            "level": 79
+          },
+          {
+            "skill": "slayer",
+            "level": 76
+          },
+          {
+            "skill": "summoning",
+            "level": 67
+          }
+        ]
       }
     },
     {
@@ -2476,9 +2813,7 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Father and Son (miniquest)"
-        ],
+        "quest": [],
         "skill": []
       }
     },
@@ -2511,29 +2846,20 @@
         "quest": [
           "Impressing the Locals",
           "Tuai Leit's Own (miniquest)",
-          "Impressing the Locals",
-          "Harbinger (miniquest)",
           "Ghosts from the Past (miniquest)",
-          "Impressing the Locals",
-          "Harbinger (miniquest)",
-          "Damage Control (miniquest)",
-          "Impressing the Locals",
-          "Harbinger (miniquest)"
+          "Damage Control (miniquest)"
         ],
         "skill": []
       }
     },
     {
-      "name": "Finale",
+      "name": "Once Upon a Time in Gielinor: Finale",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Once Upon a Time in Gielinor: Finale",
-          "Once Upon a Time in Gielinor: Fortunes",
-          "Once Upon a Time in Gielinor: Flashback",
-          "Once Upon a Time in Gielinor: Foreshadowing"
+          "Once Upon a Time in Gielinor: Fortunes"
         ],
         "skill": []
       }
@@ -2545,7 +2871,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "fishing",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -2561,34 +2892,7 @@
       }
     },
     {
-      "name": "Flashback",
-      "difficulty": 0,
-      "members": true,
-      "questPoints": 0,
-      "requirements": {
-        "quest": [
-          "Once Upon a Time in Gielinor: Flashback",
-          "Once Upon a Time in Gielinor: Foreshadowing"
-        ],
-        "skill": []
-      }
-    },
-    {
-      "name": "Flesh and Bone",
-      "difficulty": 0,
-      "members": true,
-      "questPoints": 0,
-      "requirements": {
-        "quest": [
-          "That Old Black Magic: Flesh and Bone",
-          "That Old Black Magic: My One and Only Lute",
-          "The Blood Pact"
-        ],
-        "skill": []
-      }
-    },
-    {
-      "name": "Foreshadowing",
+      "name": "Once Upon a Time in Gielinor: Flashback",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
@@ -2596,6 +2900,33 @@
         "quest": [
           "Once Upon a Time in Gielinor: Foreshadowing"
         ],
+        "skill": []
+      }
+    },
+    {
+      "name": "That Old Black Magic: Flesh and Bone",
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [
+          "That Old Black Magic: My One and Only Lute"
+        ],
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 50
+          }
+        ]
+      }
+    },
+    {
+      "name": "Once Upon a Time in Gielinor: Foreshadowing",
+      "difficulty": 0,
+      "members": true,
+      "questPoints": 0,
+      "requirements": {
+        "quest": [],
         "skill": []
       }
     },
@@ -2609,7 +2940,16 @@
           "The Giant Dwarf",
           "Fishing Contest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 22
+          },
+          {
+            "skill": "farming",
+            "level": 17
+          }
+        ]
       }
     },
     {
@@ -2620,25 +2960,32 @@
       "requirements": {
         "quest": [
           "Forgettable Tale of a Drunken Dwarf",
-          "The Giant Dwarf",
-          "Fishing Contest",
-          "Between a Rock...",
-          "Dwarf Cannon",
-          "Fishing Contest"
+          "Between a Rock..."
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 61
+          },
+          {
+            "skill": "hunter",
+            "level": 61
+          },
+          {
+            "skill": "strength",
+            "level": 69
+          }
+        ]
       }
     },
     {
-      "name": "Fortunes",
+      "name": "Once Upon a Time in Gielinor: Fortunes",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Once Upon a Time in Gielinor: Fortunes",
-          "Once Upon a Time in Gielinor: Flashback",
-          "Once Upon a Time in Gielinor: Foreshadowing"
+          "Once Upon a Time in Gielinor: Flashback"
         ],
         "skill": []
       }
@@ -2652,7 +2999,12 @@
         "quest": [
           "Buyers and Cellars"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "thieving",
+            "level": 24
+          }
+        ]
       }
     },
     {
@@ -2664,7 +3016,12 @@
         "quest": [
           "Rag and Bone Man"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "slayer",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -2674,11 +3031,14 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania"
+          "Creature of Fenkenstrain"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "farming",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -2689,22 +3049,7 @@
       "requirements": {
         "quest": [
           "Impressing the Locals",
-          "Harbinger (miniquest)",
-          "Impressing the Locals",
-          "Eye for an Eye (miniquest)",
-          "Impressing the Locals",
-          "Jed Hunter (miniquest)",
-          "Impressing the Locals",
-          "Flag Fall (miniquest)",
-          "Impressing the Locals",
-          "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port",
-          "Cyclosis",
-          "player-owned port"
+          "Harbinger (miniquest)"
         ],
         "skill": []
       }
@@ -2718,12 +3063,26 @@
         "quest": [
           "Mountain Daughter",
           "The Fremennik Isles",
-          "The Fremennik Trials",
-          "Royal Trouble",
-          "Throne of Miscellania",
-          "The Fremennik Trials"
+          "Royal Trouble"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 50
+          },
+          {
+            "skill": "herblore",
+            "level": 43
+          },
+          {
+            "skill": "hunter",
+            "level": 41
+          },
+          {
+            "skill": "magic",
+            "level": 57
+          }
+        ]
       }
     },
     {
@@ -2732,10 +3091,11 @@
       "members": false,
       "questPoints": 1,
       "requirements": {
-        "quest": [
-          "quest points"
-        ],
-        "skill": []
+        "quest": [],
+        "skill": [],
+        "other": [
+          "34 Quest Points"
+        ]
       }
     },
     {
@@ -2757,7 +3117,28 @@
         "quest": [
           "Witch's House"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 59
+          },
+          {
+            "skill": "farming",
+            "level": 45
+          },
+          {
+            "skill": "herblore",
+            "level": 52
+          },
+          {
+            "skill": "thieving",
+            "level": 58
+          },
+          {
+            "skill": "woodcutting",
+            "level": 71
+          }
+        ]
       }
     },
     {
@@ -2768,20 +3149,7 @@
       "requirements": {
         "quest": [
           "Impressing the Locals",
-          "Eye for an Eye (miniquest)",
-          "Impressing the Locals",
-          "Jed Hunter (miniquest)",
-          "Impressing the Locals",
-          "Flag Fall (miniquest)",
-          "Impressing the Locals",
-          "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port",
-          "Cyclosis",
-          "player-owned port"
+          "Eye for an Eye (miniquest)"
         ],
         "skill": []
       }
@@ -2795,7 +3163,20 @@
         "quest": [
           "Impressing the Locals"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 91
+          },
+          {
+            "skill": "fishing",
+            "level": 90
+          },
+          {
+            "skill": "woodcutting",
+            "level": 90
+          }
+        ]
       }
     },
     {
@@ -2806,13 +3187,18 @@
       "requirements": {
         "quest": [
           "Carnillean Rising",
-          "The Blood Pact",
-          "Hazeel Cult",
-          "quest points",
-          "Rune Memories",
-          "Rune Mysteries"
+          "Rune Memories"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "magic",
+            "level": 35
+          },
+          {
+            "skill": "runecrafting",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -2826,37 +3212,31 @@
       }
     },
     {
-      "name": "Helping Laniakea",
+      "name": "Helping Laniakea (miniquest)",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Helping Laniakea (miniquest)"
-        ],
+        "quest": [],
         "skill": []
       }
     },
     {
-      "name": "Hermy and Bass",
+      "name": "That Old Black Magic: Hermy and Bass",
       "difficulty": 2,
       "members": true,
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "That Old Black Magic: Hermy and Bass",
           "That Old Black Magic: My One and Only Lute",
-          "The Blood Pact",
-          "The Spirit of War",
-          "Vessel of the Harbinger",
-          "Rune Mythos",
-          "Necromancy!",
-          "Ghosts Ahoy",
-          "The Restless Ghost",
-          "Morytania",
-          "vessel souls"
+          "The Spirit of War"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 65
+          }
+        ]
       }
     },
     {
@@ -2866,13 +3246,29 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Lunar Diplomacy",
-          "The Fremennik Trials",
-          "Lost City",
-          "Ancient Cavern",
-          "Barbarian Training"
+          "Lunar Diplomacy"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 60
+          },
+          {
+            "skill": "mining",
+            "level": 67
+          },
+          {
+            "skill": "slayer",
+            "level": 62
+          },
+          {
+            "skill": "smithing",
+            "level": 67
+          }
+        ],
+        "other": [
+          "Access to the Ancient Cavern from Barbarian Training"
+        ]
       }
     },
     {
@@ -2883,11 +3279,33 @@
       "requirements": {
         "quest": [
           "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points"
+          "Dragon Slayer"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 53
+          },
+          {
+            "skill": "fishing",
+            "level": 53
+          },
+          {
+            "skill": "herblore",
+            "level": 25
+          },
+          {
+            "skill": "mining",
+            "level": 50
+          },
+          {
+            "skill": "defence",
+            "level": 25
+          }
+        ],
+        "other": [
+          "56 Quest Points"
+        ]
       }
     },
     {
@@ -2898,22 +3316,20 @@
       "requirements": {
         "quest": [
           "Land of the Goblins",
-          "Another Slice of H.A.M.",
-          "Death to the Dorgeshuun",
-          "The Lost Tribe",
-          "Goblin Diplomacy",
-          "The Giant Dwarf",
-          "Fishing Contest",
           "A Fairy Tale I - Growing Pains",
-          "Lost City",
-          "Nature Spirit",
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania",
           "fairy ring network",
           "Desert Treasure"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "prayer",
+            "level": 40
+          }
+        ],
+        "other": [
+          "Access to the fairy ring network",
+          "Partial completion of Desert Treasure"
+        ]
       }
     },
     {
@@ -2925,7 +3341,12 @@
         "quest": [
           "Bar Crawl (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 35
+          }
+        ]
       }
     },
     {
@@ -2938,7 +3359,20 @@
           "Cold War",
           "Sea Slug"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 45
+          },
+          {
+            "skill": "hunter",
+            "level": 45
+          },
+          {
+            "skill": "thieving",
+            "level": 38
+          }
+        ]
       }
     },
     {
@@ -2968,13 +3402,22 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "In Search of the Myreque",
-          "Nature Spirit",
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
+          "In Search of the Myreque"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 25
+          },
+          {
+            "skill": "magic",
+            "level": 7
+          },
+          {
+            "skill": "mining",
+            "level": 15
+          }
+        ]
       }
     },
     {
@@ -2985,18 +3428,7 @@
       "requirements": {
         "quest": [
           "The Lord of Vampyrium",
-          "The Branches of Darkmeyer",
-          "Legacy of Seergaze",
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
-          "Legends' Quest",
-          "Heroes' Quest",
-          "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points",
-          "Jungle Potion",
-          "quest points"
+          "Legends' Quest"
         ],
         "skill": []
       }
@@ -3008,7 +3440,20 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 52
+          },
+          {
+            "skill": "firemaking",
+            "level": 55
+          },
+          {
+            "skill": "fletching",
+            "level": 53
+          }
+        ]
       }
     },
     {
@@ -3018,12 +3463,14 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Nature Spirit",
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
+          "Nature Spirit"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -3045,15 +3492,19 @@
         "quest": [
           "Impressing the Locals",
           "Flag Fall (miniquest)",
-          "Impressing the Locals",
           "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port"
+          "Spiritual Enlightenment (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 91
+          },
+          {
+            "skill": "hunter",
+            "level": 90
+          }
+        ]
       }
     },
     {
@@ -3063,14 +3514,14 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "The Slug Menace",
-          "Sea Slug",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "The Slug Menace"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 46
+          }
+        ]
       }
     },
     {
@@ -3082,7 +3533,24 @@
         "quest": [
           "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 60
+          },
+          {
+            "skill": "crafting",
+            "level": 60
+          },
+          {
+            "skill": "herblore",
+            "level": 60
+          },
+          {
+            "skill": "smithing",
+            "level": 60
+          }
+        ]
       }
     },
     {
@@ -3093,22 +3561,22 @@
       "requirements": {
         "quest": [
           "Forgiveness of a Chaos Dwarf",
-          "Forgettable Tale of a Drunken Dwarf",
-          "The Giant Dwarf",
-          "Fishing Contest",
-          "Between a Rock...",
-          "Dwarf Cannon",
-          "Fishing Contest",
-          "My Arm's Big Adventure",
-          "Eadgar's Ruse",
-          "Druidic Ritual",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Mad Eadgar",
-          "Troll Stronghold area",
-          "Jungle Potion"
+          "My Arm's Big Adventure"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 68
+          },
+          {
+            "skill": "smithing",
+            "level": 70
+          },
+          {
+            "skill": "strength",
+            "level": 77
+          }
+        ]
       }
     },
     {
@@ -3119,11 +3587,8 @@
       "requirements": {
         "quest": [
           "Holy Grail",
-          "Merlin's Crystal",
           "Murder Mystery",
-          "One Small Favour",
-          "Shilo Village",
-          "Jungle Potion"
+          "One Small Favour"
         ],
         "skill": []
       }
@@ -3136,19 +3601,7 @@
       "requirements": {
         "quest": [
           "Blood Runs Deep",
-          "Horror from the Deep",
-          "Dream Mentor",
-          "Glorious Memories",
-          "Ritual of the Mahjarrat",
-          "The Temple at Senntisten",
-          "While Guthix Sleeps",
-          "Hazeel Cult",
-          "Enakhra's Lament",
-          "The Slug Menace",
-          "A Fairy Tale II - Cure a Queen",
-          "Cabin Fever",
-          "A Tail of Two Cats",
-          "Fight Arena"
+          "Ritual of the Mahjarrat"
         ],
         "skill": []
       }
@@ -3161,13 +3614,30 @@
       "requirements": {
         "quest": [
           "Another Slice of H.A.M.",
-          "Death to the Dorgeshuun",
-          "The Lost Tribe",
-          "Goblin Diplomacy",
-          "The Giant Dwarf",
           "Fishing Contest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 36
+          },
+          {
+            "skill": "fishing",
+            "level": 36
+          },
+          {
+            "skill": "herblore",
+            "level": 37
+          },
+          {
+            "skill": "prayer",
+            "level": 30
+          },
+          {
+            "skill": "thieving",
+            "level": 36
+          }
+        ]
       }
     },
     {
@@ -3177,15 +3647,38 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
-          "In Search of the Myreque",
-          "Nature Spirit",
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
+          "The Darkness of Hallowvale"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 29
+          },
+          {
+            "skill": "construction",
+            "level": 20
+          },
+          {
+            "skill": "crafting",
+            "level": 47
+          },
+          {
+            "skill": "firemaking",
+            "level": 40
+          },
+          {
+            "skill": "magic",
+            "level": 49
+          },
+          {
+            "skill": "mining",
+            "level": 35
+          },
+          {
+            "skill": "slayer",
+            "level": 31
+          }
+        ]
       }
     },
     {
@@ -3196,14 +3689,53 @@
       "requirements": {
         "quest": [
           "Heroes' Quest",
-          "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points",
-          "Jungle Potion",
-          "quest points"
+          "Jungle Potion"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 50
+          },
+          {
+            "skill": "crafting",
+            "level": 50
+          },
+          {
+            "skill": "herblore",
+            "level": 45
+          },
+          {
+            "skill": "magic",
+            "level": 56
+          },
+          {
+            "skill": "mining",
+            "level": 52
+          },
+          {
+            "skill": "prayer",
+            "level": 42
+          },
+          {
+            "skill": "smithing",
+            "level": 50
+          },
+          {
+            "skill": "strength",
+            "level": 50
+          },
+          {
+            "skill": "thieving",
+            "level": 50
+          },
+          {
+            "skill": "woodcutting",
+            "level": 50
+          }
+        ],
+        "other": [
+          "107 Quest Points"
+        ]
       }
     },
     {
@@ -3223,10 +3755,14 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "From Tiny Acorns (miniquest)",
-          "Buyers and Cellars"
+          "From Tiny Acorns (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "thieving",
+            "level": 41
+          }
+        ]
       }
     },
     {
@@ -3238,7 +3774,24 @@
         "quest": [
           "Swan Song"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 68
+          },
+          {
+            "skill": "crafting",
+            "level": 67
+          },
+          {
+            "skill": "magic",
+            "level": 77
+          },
+          {
+            "skill": "smithing",
+            "level": 68
+          }
+        ]
       }
     },
     {
@@ -3249,23 +3802,14 @@
       "requirements": {
         "quest": [
           "Koschei's Troubles (miniquest)",
-          "Blood Runs Deep",
-          "Horror from the Deep",
-          "Dream Mentor",
-          "Glorious Memories",
-          "Ritual of the Mahjarrat",
-          "The Temple at Senntisten",
-          "While Guthix Sleeps",
-          "Hazeel Cult",
-          "Enakhra's Lament",
-          "The Slug Menace",
-          "A Fairy Tale II - Cure a Queen",
-          "Cabin Fever",
-          "A Tail of Two Cats",
-          "Fight Arena",
           "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 60
+          }
+        ]
       }
     },
     {
@@ -3275,10 +3819,12 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "The Restless Ghost",
-          "Morytania"
+          "The Restless Ghost"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -3288,11 +3834,14 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Making History",
-          "The Restless Ghost",
-          "Morytania"
+          "Making History"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "herblore",
+            "level": 3
+          }
+        ]
       }
     },
     {
@@ -3303,13 +3852,31 @@
       "requirements": {
         "quest": [
           "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts",
           "The Golem",
           "Diamond in the Rough"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 35
+          },
+          {
+            "skill": "cooking",
+            "level": 35
+          },
+          {
+            "skill": "crafting",
+            "level": 35
+          },
+          {
+            "skill": "magic",
+            "level": 35
+          },
+          {
+            "skill": "prayer",
+            "level": 35
+          }
+        ]
       }
     },
     {
@@ -3332,7 +3899,12 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -3343,15 +3915,19 @@
       "requirements": {
         "quest": [
           "Roving Elves",
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City",
-          "Waterfall Quest",
           "Sheep Herder",
           "Big Chompy Bird Hunting"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "ranged",
+            "level": 60
+          },
+          {
+            "skill": "thieving",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -3361,14 +3937,7 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Mourning's End Part I",
-          "Roving Elves",
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Waterfall Quest",
-          "Sheep Herder",
-          "Big Chompy Bird Hunting"
+          "Mourning's End Part I"
         ],
         "skill": []
       }
@@ -3390,13 +3959,15 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "New Foundations",
-          "Town Hall (Tier 1)",
-          "Command Centre (Tier 1)",
-          "Workshop (Tier 1)",
-          "Chapel (Tier 1)"
+          "New Foundations"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Must have built Town Hall (Tier 1)",
+          "Must have built Command Centre (Tier 1)",
+          "Must have built Workshop (Tier 1)",
+          "Must have built Chapel (Tier 1)"
+        ]
       }
     },
     {
@@ -3407,27 +3978,35 @@
       "requirements": {
         "quest": [
           "Eadgar's Ruse",
-          "Druidic Ritual",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Mad Eadgar",
-          "Troll Stronghold area",
           "Jungle Potion"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "farming",
+            "level": 29
+          },
+          {
+            "skill": "woodcutting",
+            "level": 10
+          }
+        ]
       }
     },
     {
-      "name": "My One and Only Lute",
+      "name": "That Old Black Magic: My One and Only Lute",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "That Old Black Magic: My One and Only Lute",
           "The Blood Pact"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 32
+          }
+        ]
       }
     },
     {
@@ -3446,12 +4025,16 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 35
+          }
         ],
-        "skill": []
+        "other": [
+          "Find and free Skaldrun from the frozen floors in Daemonheim"
+        ]
       }
     },
     {
@@ -3462,10 +4045,12 @@
       "requirements": {
         "quest": [
           "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
+          "The Restless Ghost"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -3476,49 +4061,26 @@
       "requirements": {
         "quest": [
           "Dishonour among Thieves",
-          "Hazeel Cult",
-          "Missing, Presumed Death",
-          "Morytania",
           "Nomad's Requiem",
-          "King's Ransom",
-          "Holy Grail",
-          "Merlin's Crystal",
-          "Murder Mystery",
-          "One Small Favour",
-          "Shilo Village",
-          "Jungle Potion",
-          "Knight Waves",
-          "Camelot",
-          "Soul Wars",
           "Heart of Stone",
-          "Carnillean Rising",
-          "The Blood Pact",
-          "Hazeel Cult",
-          "quest points",
-          "Rune Memories",
-          "Rune Mysteries",
           "The Mighty Fall",
-          "The Chosen Commander",
-          "Land of the Goblins",
-          "Another Slice of H.A.M.",
-          "Death to the Dorgeshuun",
-          "Goblin Diplomacy",
-          "The Giant Dwarf",
-          "Fishing Contest",
-          "Missing, Presumed Death",
           "Throne of Miscellania",
-          "The Fremennik Trials",
-          "The Void Stares Back",
-          "A Void Dance",
-          "Druidic Ritual",
-          "Quiet Before the Swarm",
-          "Imp Catcher",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "The Void Stares Back"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 75
+          },
+          {
+            "skill": "mining",
+            "level": 75
+          },
+          {
+            "skill": "woodcutting",
+            "level": 75
+          }
+        ]
       }
     },
     {
@@ -3528,18 +4090,34 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "King's Ransom",
-          "Holy Grail",
-          "Merlin's Crystal",
-          "Murder Mystery",
-          "One Small Favour",
-          "Shilo Village",
-          "Jungle Potion",
-          "Knight Waves",
-          "Camelot",
-          "Soul Wars"
+          "King's Ransom"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 60
+          },
+          {
+            "skill": "hunter",
+            "level": 65
+          },
+          {
+            "skill": "magic",
+            "level": 75
+          },
+          {
+            "skill": "mining",
+            "level": 66
+          },
+          {
+            "skill": "prayer",
+            "level": 70
+          }
+        ],
+        "other": [
+          "Complete the Knight Waves in Camelot",
+          "Complete the Soul Wars tutorial"
+        ]
       }
     },
     {
@@ -3560,28 +4138,7 @@
       "requirements": {
         "quest": [
           "Requiem for a Dragon",
-          "Battle of Forinthry",
-          "Ancient Awakening",
-          "Dead and Buried",
-          "Unwelcome Guests",
-          "eastern border wall",
-          "Grove cabin (Tier 1)",
-          "Botanist's Workbench (Tier 1)",
-          "Tomes of the Warlock",
-          "The Spirit of War",
-          "Vessel of the Harbinger",
-          "Rune Mythos",
-          "Ghosts Ahoy",
-          "vessel souls",
-          "The Jack of Spades",
-          "Diamond in the Rough",
-          "Stolen Hearts",
-          "Kili Row",
-          "Necromancy!",
-          "necromancer robes",
-          "Sostratus",
-          "Soul Searching",
-          "Necromancy!"
+          "Soul Searching"
         ],
         "skill": []
       }
@@ -3595,7 +4152,16 @@
         "quest": [
           "The Fremennik Trials"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 40
+          },
+          {
+            "skill": "woodcutting",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -3615,12 +4181,12 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "The Hand in the Sand",
-          "Back to my Roots",
-          "The Hand in the Sand",
-          "Tribal Totem"
+          "The Hand in the Sand"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Partial completion of Back to my Roots"
+        ]
       }
     },
     {
@@ -3631,15 +4197,28 @@
       "requirements": {
         "quest": [
           "A Tail of Two Cats",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
           "Holy Grail",
-          "Merlin's Crystal",
           "The World Wakes",
           "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 40
+          },
+          {
+            "skill": "dungeoneering",
+            "level": 67
+          },
+          {
+            "skill": "magic",
+            "level": 81
+          },
+          {
+            "skill": "summoning",
+            "level": 74
+          }
+        ]
       }
     },
     {
@@ -3662,7 +4241,24 @@
           "Shilo Village",
           "Jungle Potion"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 36
+          },
+          {
+            "skill": "crafting",
+            "level": 25
+          },
+          {
+            "skill": "herblore",
+            "level": 18
+          },
+          {
+            "skill": "smithing",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -3672,7 +4268,16 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 30
+          },
+          {
+            "skill": "necromancy",
+            "level": 70
+          }
+        ]
       }
     },
     {
@@ -3684,29 +4289,12 @@
         "quest": [
           "The Feud",
           "Do No Evil",
-          "Animal Magnetism",
-          "Shadow of the Storm",
-          "Desert Treasure",
-          "Smoking Kills",
-          "Missing My Mummy",
-          "Dealing with Scabaras",
-          "Recipe for Disaster: Freeing King Awowogei",
-          "Senliten",
-          "Leela",
-          "Senliten's tomb",
-          "Missing My Mummy",
-          "Crocodile Tears",
-          "The Jack of Spades",
-          "Spirits of the Elid",
-          "Missing My Mummy",
-          "Dealing with Scabaras",
-          "Leela",
-          "Senliten's tomb",
-          "Senliten",
-          "Missing My Mummy",
-          "Menaphos reputation"
+          "Crocodile Tears"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Achieve rank 6 overall Menaphos reputation"
+        ]
       }
     },
     {
@@ -3716,7 +4304,24 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 5
+          },
+          {
+            "skill": "farming",
+            "level": 5
+          },
+          {
+            "skill": "hunter",
+            "level": 5
+          },
+          {
+            "skill": "thieving",
+            "level": 5
+          }
+        ]
       }
     },
     {
@@ -3727,20 +4332,26 @@
       "requirements": {
         "quest": [
           "A Clockwork Syringe",
-          "Rocking Out",
-          "The Great Brain Robbery",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania",
-          "Cabin Fever",
-          "Pirate's Treasure",
-          "Rum Deal",
-          "Recipe for Disaster: Freeing Pirate Pete",
-          "Recipe for Disaster: Another Cook's Quest",
-          "player-owned house",
           "Gertrude's Cat"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 83
+          },
+          {
+            "skill": "construction",
+            "level": 81
+          },
+          {
+            "skill": "firemaking",
+            "level": 82
+          },
+          {
+            "skill": "thieving",
+            "level": 85
+          }
+        ]
       }
     },
     {
@@ -3771,23 +4382,54 @@
       "requirements": {
         "quest": [
           "Within the Light",
-          "Mourning's End Part II",
-          "Mourning's End Part I",
-          "Roving Elves",
-          "Regicide",
-          "Waterfall Quest",
-          "Sheep Herder",
-          "Big Chompy Bird Hunting",
           "Catapult Construction",
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City",
-          "Making History",
-          "The Restless Ghost",
-          "Morytania"
+          "Making History"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 75
+          },
+          {
+            "skill": "construction",
+            "level": 75
+          },
+          {
+            "skill": "crafting",
+            "level": 75
+          },
+          {
+            "skill": "dungeoneering",
+            "level": 75
+          },
+          {
+            "skill": "herblore",
+            "level": 75
+          },
+          {
+            "skill": "mining",
+            "level": 75
+          },
+          {
+            "skill": "prayer",
+            "level": 75
+          },
+          {
+            "skill": "ranged",
+            "level": 75
+          },
+          {
+            "skill": "summoning",
+            "level": 75
+          },
+          {
+            "skill": "woodcutting",
+            "level": 75
+          }
+        ],
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -3811,12 +4453,18 @@
       "requirements": {
         "quest": [
           "Imp Catcher",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "Wanted!"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 35
+          },
+          {
+            "skill": "strength",
+            "level": 42
+          }
+        ]
       }
     },
     {
@@ -3846,10 +4494,7 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "Icthlarin's Little Helper"
         ],
         "skill": []
       }
@@ -3862,37 +4507,7 @@
       "requirements": {
         "quest": [
           "Ritual of the Mahjarrat",
-          "The Temple at Senntisten",
-          "Devious Minds",
-          "Desert Treasure",
-          "The Curse of Arrav",
-          "Kudos",
-          "While Guthix Sleeps",
-          "Defender of Varrock",
-          "Dream Mentor",
-          "Shilo Village",
-          "Temple of Ikov",
-          "Legends' Quest",
-          "The Path of Glouphrie",
-          "Tears of Guthix",
-          "Wanted!",
-          "The Hunt for Surok (miniquest)",
-          "Warriors' Guild",
-          "Hazeel Cult",
-          "Enakhra's Lament",
-          "The Slug Menace",
-          "Sea Slug",
-          "Wanted!",
-          "A Fairy Tale II - Cure a Queen",
-          "A Fairy Tale I - Growing Pains",
-          "Cabin Fever",
-          "Pirate's Treasure",
-          "Rum Deal",
-          "A Tail of Two Cats",
-          "Icthlarin's Little Helper",
-          "Fight Arena",
-          "A Fairy Tale III - Battle at Ork's Rift",
-          "A Fairy Tale II - Cure a Queen"
+          "A Fairy Tale III - Battle at Ork's Rift"
         ],
         "skill": []
       }
@@ -3907,7 +4522,12 @@
           "Recipe for Disaster: Another Cook's Quest",
           "Cook's Assistant"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -3919,7 +4539,12 @@
         "quest": [
           "Cook's Assistant"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -3930,52 +4555,26 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
           "Recipe for Disaster: Freeing the Mountain Dwarf",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Fishing Contest",
           "Recipe for Disaster: Freeing the Goblin Generals",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Goblin Diplomacy",
           "Recipe for Disaster: Freeing Pirate Pete",
-          "Recipe for Disaster: Another Cook's Quest",
           "Recipe for Disaster: Freeing the Lumbridge Sage",
-          "Recipe for Disaster: Another Cook's Quest",
           "Recipe for Disaster: Freeing Evil Dave",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Gertrude's Cat",
-          "Shadow of the Storm",
-          "Demon Slayer",
-          "The Golem",
           "Recipe for Disaster: Freeing Skrach Uglogwee",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Big Chompy Bird Hunting",
           "Recipe for Disaster: Freeing Sir Amik Varze",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Lost City",
-          "Legends' Quest",
-          "Heroes' Quest",
-          "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points",
-          "Jungle Potion",
-          "quest points",
           "Recipe for Disaster: Freeing King Awowogei",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Monkey Madness",
-          "The Grand Tree",
-          "Tree Gnome Village",
           "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania",
-          "Horror from the Deep",
-          "Bar Crawl (miniquest)",
-          "quest points"
+          "Horror from the Deep"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 10
+          }
+        ],
+        "other": [
+          "176 quest points You have 93 quest points"
+        ]
       }
     },
     {
@@ -3986,13 +4585,15 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
           "Gertrude's Cat",
-          "Shadow of the Storm",
-          "Demon Slayer",
-          "The Golem"
+          "Shadow of the Storm"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -4003,12 +4604,18 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
-          "Monkey Madness",
-          "The Grand Tree",
-          "Tree Gnome Village"
+          "Monkey Madness"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 48
+          },
+          {
+            "skill": "cooking",
+            "level": 70
+          }
+        ]
       }
     },
     {
@@ -4018,10 +4625,14 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant"
+          "Recipe for Disaster: Another Cook's Quest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 31
+          }
+        ]
       }
     },
     {
@@ -4032,18 +4643,12 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
-          "Lost City",
-          "Legends' Quest",
-          "Heroes' Quest",
-          "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points",
-          "Jungle Potion",
-          "quest points"
+          "Lost City"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Partial completion of Legends' Quest"
+        ]
       }
     },
     {
@@ -4054,10 +4659,18 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
           "Big Chompy Bird Hunting"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 41
+          },
+          {
+            "skill": "firemaking",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -4068,7 +4681,6 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
           "Goblin Diplomacy"
         ],
         "skill": []
@@ -4081,10 +4693,14 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant"
+          "Recipe for Disaster: Another Cook's Quest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -4095,7 +4711,6 @@
       "requirements": {
         "quest": [
           "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant",
           "Fishing Contest"
         ],
         "skill": []
@@ -4108,11 +4723,14 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "Underground Pass",
-          "Biohazard",
-          "Plague City"
+          "Underground Pass"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 56
+          }
+        ]
       }
     },
     {
@@ -4122,22 +4740,22 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Tomes of the Warlock",
-          "The Spirit of War",
-          "Vessel of the Harbinger",
-          "Rune Mythos",
-          "Necromancy!",
-          "Ghosts Ahoy",
-          "The Restless Ghost",
-          "Morytania",
-          "vessel souls",
-          "The Jack of Spades",
-          "Diamond in the Rough",
-          "Stolen Hearts",
-          "Vengeance (saga)",
-          "Nadir (saga)"
+          "Tomes of the Warlock"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 77
+          },
+          {
+            "skill": "necromancy",
+            "level": 85
+          }
+        ],
+        "other": [
+          "Unabridged Vengeance (saga) with 100%",
+          "Unabridged Nadir (saga)  with 100%"
+        ]
       }
     },
     {
@@ -4148,29 +4766,8 @@
       "requirements": {
         "quest": [
           "Battle of Forinthry",
-          "Ancient Awakening",
-          "Dead and Buried",
-          "Unwelcome Guests",
-          "Murder on the Border",
-          "eastern border wall",
-          "Grove cabin (Tier 1)",
-          "Botanist's Workbench (Tier 1)",
           "Tomes of the Warlock",
-          "The Spirit of War",
-          "Vessel of the Harbinger",
-          "Rune Mythos",
-          "Necromancy!",
-          "Ghosts Ahoy",
-          "The Restless Ghost",
-          "Morytania",
-          "vessel souls",
-          "The Jack of Spades",
-          "Diamond in the Rough",
-          "Stolen Hearts",
-          "Kili Row",
-          "Necromancy!",
-          "necromancer robes",
-          "Sostratus"
+          "Kili Row"
         ],
         "skill": []
       }
@@ -4183,36 +4780,29 @@
       "requirements": {
         "quest": [
           "The Temple at Senntisten",
-          "Devious Minds",
-          "Desert Treasure",
-          "The Curse of Arrav",
-          "Kudos",
           "While Guthix Sleeps",
-          "Defender of Varrock",
-          "Dream Mentor",
-          "Shilo Village",
-          "Temple of Ikov",
-          "Legends' Quest",
-          "The Path of Glouphrie",
-          "Tears of Guthix",
-          "Wanted!",
-          "The Hunt for Surok (miniquest)",
-          "Warriors' Guild",
           "Hazeel Cult",
           "Enakhra's Lament",
           "The Slug Menace",
-          "Sea Slug",
-          "Wanted!",
           "A Fairy Tale II - Cure a Queen",
-          "A Fairy Tale I - Growing Pains",
           "Cabin Fever",
-          "Pirate's Treasure",
-          "Rum Deal",
           "A Tail of Two Cats",
-          "Icthlarin's Little Helper",
           "Fight Arena"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 77
+          },
+          {
+            "skill": "crafting",
+            "level": 76
+          },
+          {
+            "skill": "mining",
+            "level": 76
+          }
+        ]
       }
     },
     {
@@ -4223,22 +4813,43 @@
       "requirements": {
         "quest": [
           "The Lord of Vampyrium",
-          "The Branches of Darkmeyer",
-          "Legacy of Seergaze",
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
           "Defender of Varrock",
-          "Shield of Arrav",
-          "The Knight's Sword",
-          "Family Crest",
-          "What Lies Below",
-          "Kudos",
-          "Historian Minas",
-          "Varrock Museum",
-          "All Fired Up",
-          "Priest in Peril"
+          "All Fired Up"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 78
+          },
+          {
+            "skill": "constitution",
+            "level": 80
+          },
+          {
+            "skill": "firemaking",
+            "level": 76
+          },
+          {
+            "skill": "fletching",
+            "level": 75
+          },
+          {
+            "skill": "herblore",
+            "level": 80
+          },
+          {
+            "skill": "magic",
+            "level": 78
+          },
+          {
+            "skill": "mining",
+            "level": 72
+          },
+          {
+            "skill": "ranged",
+            "level": 78
+          }
+        ]
       }
     },
     {
@@ -4248,19 +4859,26 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "The Great Brain Robbery",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania",
-          "Cabin Fever",
-          "Pirate's Treasure",
-          "Rum Deal",
-          "Morytania",
-          "Recipe for Disaster: Freeing Pirate Pete",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant"
+          "The Great Brain Robbery"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 60
+          },
+          {
+            "skill": "crafting",
+            "level": 66
+          },
+          {
+            "skill": "smithing",
+            "level": 69
+          },
+          {
+            "skill": "thieving",
+            "level": 63
+          }
+        ]
       }
     },
     {
@@ -4271,9 +4889,6 @@
       "requirements": {
         "quest": [
           "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City",
           "Waterfall Quest"
         ],
         "skill": []
@@ -4286,10 +4901,18 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Throne of Miscellania",
-          "The Fremennik Trials"
+          "Throne of Miscellania"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 40
+          },
+          {
+            "skill": "slayer",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -4298,10 +4921,32 @@
       "members": true,
       "questPoints": 2,
       "requirements": {
-        "quest": [
-          "Morytania"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 42
+          },
+          {
+            "skill": "farming",
+            "level": 40
+          },
+          {
+            "skill": "fishing",
+            "level": 50
+          },
+          {
+            "skill": "prayer",
+            "level": 47
+          },
+          {
+            "skill": "slayer",
+            "level": 42
+          }
         ],
-        "skill": []
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -4311,7 +4956,20 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 25
+          },
+          {
+            "skill": "magic",
+            "level": 27
+          },
+          {
+            "skill": "runecrafting",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -4343,15 +5001,30 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Kennith's Concerns",
-          "The Slug Menace",
-          "Sea Slug",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "Kennith's Concerns"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "constitution",
+            "level": 50
+          },
+          {
+            "skill": "defence",
+            "level": 60
+          },
+          {
+            "skill": "dungeoneering",
+            "level": 35
+          },
+          {
+            "skill": "herblore",
+            "level": 47
+          },
+          {
+            "skill": "summoning",
+            "level": 45
+          }
+        ]
       }
     },
     {
@@ -4363,7 +5036,12 @@
         "quest": [
           "Bar Crawl (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "prayer",
+            "level": 31
+          }
+        ]
       }
     },
     {
@@ -4373,7 +5051,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -4382,10 +5065,24 @@
       "members": true,
       "questPoints": 3,
       "requirements": {
-        "quest": [
-          "Morytania"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 20
+          },
+          {
+            "skill": "firemaking",
+            "level": 6
+          },
+          {
+            "skill": "herblore",
+            "level": 15
+          }
         ],
-        "skill": []
+        "other": [
+          "Ability to enter Morytania"
+        ]
       }
     },
     {
@@ -4398,7 +5095,12 @@
           "Demon Slayer",
           "The Golem"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -4428,28 +5130,33 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Desperate Measures",
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia"
+          "Desperate Measures"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "At least level 85 in one of the following skills: Crafting, Runecrafting, Smithing or Invention"
+        ]
       }
     },
     {
-      "name": "Skelly By Everlight",
+      "name": "That Old Black Magic: Skelly By Everlight",
       "difficulty": 0,
       "members": true,
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "That Old Black Magic: Skelly By Everlight",
-          "That Old Black Magic: My One and Only Lute",
-          "The Blood Pact"
+          "That Old Black Magic: My One and Only Lute"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 51
+          },
+          {
+            "skill": "necromancy",
+            "level": 45
+          }
+        ]
       }
     },
     {
@@ -4461,26 +5168,10 @@
         "quest": [
           "The Death of Chivalry",
           "One of a Kind",
-          "A Tail of Two Cats",
-          "Holy Grail",
-          "The World Wakes",
-          "Missing, Presumed Death",
           "Nomad's Elegy",
-          "Dishonour among Thieves",
-          "Nomad's Requiem",
-          "Heart of Stone",
-          "The Mighty Fall",
-          "Throne of Miscellania",
-          "The Void Stares Back",
           "Kindred Spirits",
-          "Missing, Presumed Death",
           "Hero's Welcome",
-          "Lunar Diplomacy",
-          "Ancient Cavern",
-          "Barbarian Training",
-          "Children of Mah",
-          "The Light Within",
-          "Dishonour among Thieves"
+          "Children of Mah"
         ],
         "skill": []
       }
@@ -4493,12 +5184,18 @@
       "requirements": {
         "quest": [
           "The Restless Ghost",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "Icthlarin's Little Helper"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 25
+          },
+          {
+            "skill": "slayer",
+            "level": 35
+          }
+        ]
       }
     },
     {
@@ -4508,11 +5205,26 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Hunt for Red Raktuber",
-          "Cold War",
-          "Sea Slug"
+          "Hunt for Red Raktuber"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 50
+          },
+          {
+            "skill": "crafting",
+            "level": 56
+          },
+          {
+            "skill": "fishing",
+            "level": 65
+          },
+          {
+            "skill": "thieving",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -4546,7 +5258,24 @@
         "quest": [
           "The Restless Ghost"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 40
+          },
+          {
+            "skill": "farming",
+            "level": 26
+          },
+          {
+            "skill": "prayer",
+            "level": 35
+          },
+          {
+            "skill": "summoning",
+            "level": 19
+          }
+        ]
       }
     },
     {
@@ -4556,7 +5285,24 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "magic",
+            "level": 33
+          },
+          {
+            "skill": "mining",
+            "level": 37
+          },
+          {
+            "skill": "ranged",
+            "level": 37
+          },
+          {
+            "skill": "thieving",
+            "level": 37
+          }
+        ]
       }
     },
     {
@@ -4566,11 +5312,17 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port"
+          "Impressing the Locals"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "slayer",
+            "level": 90
+          }
+        ],
+        "other": [
+          "Complete the 'Meet the Assassin' voyage in player-owned port"
+        ]
       }
     },
     {
@@ -4580,13 +5332,21 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Civil War III (miniquest)",
-          "Civil War II (miniquest)",
-          "Civil War I (miniquest)",
-          "Daughter of Chaos",
-          "Infernal Puzzle Box"
+          "Civil War III (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 60
+          },
+          {
+            "skill": "smithing",
+            "level": 60
+          }
+        ],
+        "other": [
+          "Unlock Infernal Puzzle Box Tier 5"
+        ]
       }
     },
     {
@@ -4596,10 +5356,34 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Spirit of Summer",
-          "The Restless Ghost"
+          "Spirit of Summer"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 47
+          },
+          {
+            "skill": "hunter",
+            "level": 35
+          },
+          {
+            "skill": "mining",
+            "level": 45
+          },
+          {
+            "skill": "prayer",
+            "level": 55
+          },
+          {
+            "skill": "summoning",
+            "level": 23
+          },
+          {
+            "skill": "woodcutting",
+            "level": 37
+          }
+        ]
       }
     },
     {
@@ -4609,7 +5393,32 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "cooking",
+            "level": 62
+          },
+          {
+            "skill": "crafting",
+            "level": 40
+          },
+          {
+            "skill": "firemaking",
+            "level": 42
+          },
+          {
+            "skill": "fishing",
+            "level": 62
+          },
+          {
+            "skill": "magic",
+            "level": 66
+          },
+          {
+            "skill": "smithing",
+            "level": 45
+          }
+        ]
       }
     },
     {
@@ -4621,7 +5430,20 @@
         "quest": [
           "Jungle Potion"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 15
+          },
+          {
+            "skill": "cooking",
+            "level": 30
+          },
+          {
+            "skill": "fishing",
+            "level": 5
+          }
+        ]
       }
     },
     {
@@ -4631,13 +5453,7 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "Nomad's Elegy",
-          "Dishonour among Thieves",
-          "Nomad's Requiem",
-          "Heart of Stone",
-          "The Mighty Fall",
-          "Throne of Miscellania",
-          "The Void Stares Back"
+          "Nomad's Elegy"
         ],
         "skill": []
       }
@@ -4648,11 +5464,25 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Morytania",
-          "God Wars Dungeon"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "constitution",
+            "level": 70
+          },
+          {
+            "skill": "strength",
+            "level": 60
+          },
+          {
+            "skill": "agility",
+            "level": 60
+          }
         ],
-        "skill": []
+        "other": [
+          "Ability to enter Morytania",
+          "Access to the God Wars Dungeon"
+        ]
       }
     },
     {
@@ -4662,7 +5492,23 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 20
+          },
+          {
+            "skill": "firemaking",
+            "level": 49
+          },
+          {
+            "skill": "mining",
+            "level": 20
+          }
+        ],
+        "other": [
+          "44 Quest Points"
+        ]
       }
     },
     {
@@ -4672,7 +5518,16 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "ranged",
+            "level": 40
+          },
+          {
+            "skill": "thieving",
+            "level": 42
+          }
+        ]
       }
     },
     {
@@ -4684,7 +5539,12 @@
         "quest": [
           "Necromancy!"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "necromancy",
+            "level": 32
+          }
+        ]
       }
     },
     {
@@ -4694,13 +5554,38 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Legacy of Seergaze",
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
-          "In Search of the Myreque",
-          "Nature Spirit"
+          "Legacy of Seergaze"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 63
+          },
+          {
+            "skill": "crafting",
+            "level": 64
+          },
+          {
+            "skill": "farming",
+            "level": 63
+          },
+          {
+            "skill": "fletching",
+            "level": 70
+          },
+          {
+            "skill": "magic",
+            "level": 70
+          },
+          {
+            "skill": "slayer",
+            "level": 67
+          },
+          {
+            "skill": "woodcutting",
+            "level": 76
+          }
+        ]
       }
     },
     {
@@ -4712,7 +5597,16 @@
         "quest": [
           "The Elder Kiln"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 72
+          },
+          {
+            "skill": "smithing",
+            "level": 80
+          }
+        ]
       }
     },
     {
@@ -4722,15 +5616,22 @@
       "questPoints": 3,
       "requirements": {
         "quest": [
-          "Land of the Goblins",
-          "Another Slice of H.A.M.",
-          "Death to the Dorgeshuun",
-          "The Lost Tribe",
-          "Goblin Diplomacy",
-          "The Giant Dwarf",
-          "Fishing Contest"
+          "Land of the Goblins"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 46
+          },
+          {
+            "skill": "strength",
+            "level": 46
+          },
+          {
+            "skill": "thieving",
+            "level": 46
+          }
+        ]
       }
     },
     {
@@ -4742,30 +5643,44 @@
         "quest": [
           "The Tale of the Muspah",
           "Missing My Mummy",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts",
-          "The Golem",
-          "Diamond in the Rough",
           "Defender of Varrock",
-          "Shield of Arrav",
-          "The Knight's Sword",
-          "Family Crest",
-          "What Lies Below",
-          "Kudos",
-          "Historian Minas",
-          "Varrock Museum",
-          "Temple of Ikov",
-          "Trollheim",
-          "Senliten",
-          "Missing My Mummy",
-          "Garden of Tranquillity",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania"
+          "Temple of Ikov"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 61
+          },
+          {
+            "skill": "mining",
+            "level": 64
+          },
+          {
+            "skill": "ranged",
+            "level": 64
+          },
+          {
+            "skill": "slayer",
+            "level": 37
+          },
+          {
+            "skill": "strength",
+            "level": 64
+          },
+          {
+            "skill": "summoning",
+            "level": 41
+          },
+          {
+            "skill": "thieving",
+            "level": 66
+          }
+        ],
+        "other": [
+          "Ability to access Trollheim",
+          "Fully restore Senliten from the 'Missing My Mummy' quest",
+          "Full completion of Missing My Mummy "
+        ]
       }
     },
     {
@@ -4776,14 +5691,12 @@
       "requirements": {
         "quest": [
           "Temple of Ikov",
-          "The Restless Ghost",
-          "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania"
+          "The Restless Ghost"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Partial completion of Desert Treasure"
+        ]
       }
     },
     {
@@ -4793,14 +5706,38 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "In Aid of the Myreque",
-          "In Search of the Myreque",
-          "Nature Spirit",
-          "Priest in Peril",
-          "The Restless Ghost",
-          "Morytania"
+          "In Aid of the Myreque"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 26
+          },
+          {
+            "skill": "construction",
+            "level": 5
+          },
+          {
+            "skill": "crafting",
+            "level": 32
+          },
+          {
+            "skill": "magic",
+            "level": 33
+          },
+          {
+            "skill": "mining",
+            "level": 20
+          },
+          {
+            "skill": "strength",
+            "level": 40
+          },
+          {
+            "skill": "thieving",
+            "level": 22
+          }
+        ]
       }
     },
     {
@@ -4820,7 +5757,20 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 60
+          },
+          {
+            "skill": "magic",
+            "level": 75
+          },
+          {
+            "skill": "mining",
+            "level": 40
+          }
+        ]
       }
     },
     {
@@ -4832,7 +5782,16 @@
         "quest": [
           "The Grand Tree"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 5
+          },
+          {
+            "skill": "magic",
+            "level": 46
+          }
+        ]
       }
     },
     {
@@ -4842,7 +5801,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "thieving",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -4852,7 +5816,20 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 64
+          },
+          {
+            "skill": "constitution",
+            "level": 76
+          },
+          {
+            "skill": "firemaking",
+            "level": 74
+          }
+        ]
       }
     },
     {
@@ -4864,7 +5841,24 @@
         "quest": [
           "The Fremennik Trials"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 40
+          },
+          {
+            "skill": "construction",
+            "level": 20
+          },
+          {
+            "skill": "crafting",
+            "level": 46
+          },
+          {
+            "skill": "woodcutting",
+            "level": 56
+          }
+        ]
       }
     },
     {
@@ -4875,13 +5869,6 @@
       "requirements": {
         "quest": [
           "The Curse of Zaros (miniquest)",
-          "Temple of Ikov",
-          "The Restless Ghost",
-          "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania",
           "Fight Arena"
         ],
         "skill": []
@@ -4894,7 +5881,24 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 12
+          },
+          {
+            "skill": "firemaking",
+            "level": 16
+          },
+          {
+            "skill": "magic",
+            "level": 33
+          },
+          {
+            "skill": "thieving",
+            "level": 14
+          }
+        ]
       }
     },
     {
@@ -4904,7 +5908,12 @@
       "questPoints": 5,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -4915,17 +5924,23 @@
       "requirements": {
         "quest": [
           "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania",
           "Cabin Fever",
-          "Pirate's Treasure",
-          "Rum Deal",
-          "Morytania",
-          "Recipe for Disaster: Freeing Pirate Pete",
-          "Recipe for Disaster: Another Cook's Quest",
-          "Cook's Assistant"
+          "Recipe for Disaster: Freeing Pirate Pete"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 30
+          },
+          {
+            "skill": "crafting",
+            "level": 16
+          },
+          {
+            "skill": "prayer",
+            "level": 50
+          }
+        ]
       }
     },
     {
@@ -4935,7 +5950,16 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 49
+          },
+          {
+            "skill": "thieving",
+            "level": 17
+          }
+        ]
       }
     },
     {
@@ -4947,7 +5971,16 @@
         "quest": [
           "What Lies Below"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 42
+          },
+          {
+            "skill": "prayer",
+            "level": 43
+          }
+        ]
       }
     },
     {
@@ -4957,7 +5990,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "mining",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -4968,21 +6006,41 @@
       "requirements": {
         "quest": [
           "Meeting History",
-          "Making History",
           "The Temple at Senntisten",
-          "Devious Minds",
-          "Desert Treasure",
-          "The Curse of Arrav",
-          "Kudos",
           "Plague's End",
-          "Within the Light",
-          "Catapult Construction",
-          "Making History",
           "The World Wakes",
-          "Fate of the Gods",
-          "Missing, Presumed Death"
+          "Fate of the Gods"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 80
+          },
+          {
+            "skill": "crafting",
+            "level": 80
+          },
+          {
+            "skill": "divination",
+            "level": 80
+          },
+          {
+            "skill": "herblore",
+            "level": 80
+          },
+          {
+            "skill": "prayer",
+            "level": 80
+          },
+          {
+            "skill": "slayer",
+            "level": 80
+          },
+          {
+            "skill": "woodcutting",
+            "level": 80
+          }
+        ]
       }
     },
     {
@@ -4992,13 +6050,38 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "The Branches of Darkmeyer",
-          "Legacy of Seergaze",
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
-          "In Search of the Myreque"
+          "The Branches of Darkmeyer"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 75
+          },
+          {
+            "skill": "constitution",
+            "level": 75
+          },
+          {
+            "skill": "construction",
+            "level": 79
+          },
+          {
+            "skill": "defence",
+            "level": 75
+          },
+          {
+            "skill": "hunter",
+            "level": 76
+          },
+          {
+            "skill": "slayer",
+            "level": 78
+          },
+          {
+            "skill": "strength",
+            "level": 75
+          }
+        ]
       }
     },
     {
@@ -5008,11 +6091,7 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "The Branches of Darkmeyer",
-          "Legacy of Seergaze",
-          "The Darkness of Hallowvale",
-          "In Aid of the Myreque",
-          "In Search of the Myreque"
+          "The Branches of Darkmeyer"
         ],
         "skill": []
       }
@@ -5025,16 +6104,30 @@
       "requirements": {
         "quest": [
           "The Chosen Commander",
-          "Land of the Goblins",
-          "Another Slice of H.A.M.",
-          "Death to the Dorgeshuun",
-          "The Lost Tribe",
-          "Goblin Diplomacy",
-          "The Giant Dwarf",
-          "Fishing Contest",
           "Missing, Presumed Death"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 79
+          },
+          {
+            "skill": "constitution",
+            "level": 78
+          },
+          {
+            "skill": "defence",
+            "level": 72
+          },
+          {
+            "skill": "slayer",
+            "level": 69
+          },
+          {
+            "skill": "strength",
+            "level": 79
+          }
+        ]
       }
     },
     {
@@ -5055,11 +6148,31 @@
       "requirements": {
         "quest": [
           "The Eyes of Glouphrie",
-          "The Grand Tree",
           "Tree Gnome Village",
           "Waterfall Quest"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 45
+          },
+          {
+            "skill": "ranged",
+            "level": 47
+          },
+          {
+            "skill": "slayer",
+            "level": 56
+          },
+          {
+            "skill": "strength",
+            "level": 60
+          },
+          {
+            "skill": "thieving",
+            "level": 56
+          }
+        ]
       }
     },
     {
@@ -5070,18 +6183,26 @@
       "requirements": {
         "quest": [
           "The Path of Glouphrie",
-          "The Eyes of Glouphrie",
-          "The Grand Tree",
-          "Tree Gnome Village",
-          "Waterfall Quest",
-          "Roving Elves",
-          "Regicide",
-          "Underground Pass",
-          "Biohazard",
-          "Plague City",
-          "Waterfall Quest"
+          "Roving Elves"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 64
+          },
+          {
+            "skill": "construction",
+            "level": 62
+          },
+          {
+            "skill": "runecrafting",
+            "level": 61
+          },
+          {
+            "skill": "thieving",
+            "level": 64
+          }
+        ]
       }
     },
     {
@@ -5092,12 +6213,26 @@
       "requirements": {
         "quest": [
           "Sea Slug",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "Wanted!"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "crafting",
+            "level": 30
+          },
+          {
+            "skill": "runecrafting",
+            "level": 30
+          },
+          {
+            "skill": "slayer",
+            "level": 30
+          },
+          {
+            "skill": "thieving",
+            "level": 30
+          }
+        ]
       }
     },
     {
@@ -5107,7 +6242,24 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "firemaking",
+            "level": 6
+          },
+          {
+            "skill": "magic",
+            "level": 10
+          },
+          {
+            "skill": "mining",
+            "level": 8
+          },
+          {
+            "skill": "woodcutting",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -5118,42 +6270,18 @@
       "requirements": {
         "quest": [
           "Devious Minds",
-          "Recruitment Drive",
-          "What's Mine is Yours",
-          "Morytania",
           "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania",
-          "The Curse of Arrav",
-          "The Tale of the Muspah",
-          "Missing My Mummy",
-          "Icthlarin's Little Helper",
-          "Gertrude's Cat",
-          "Diamond in the Rough",
-          "Stolen Hearts",
-          "The Golem",
-          "Diamond in the Rough",
-          "Defender of Varrock",
-          "Shield of Arrav",
-          "The Knight's Sword",
-          "Family Crest",
-          "What Lies Below",
-          "Kudos",
-          "Historian Minas",
-          "Varrock Museum",
-          "Temple of Ikov",
-          "Trollheim",
-          "Senliten",
-          "Missing My Mummy",
-          "Garden of Tranquillity",
-          "Creature of Fenkenstrain",
-          "The Restless Ghost",
-          "Morytania",
-          "Kudos"
+          "The Curse of Arrav"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "prayer",
+            "level": 50
+          }
+        ],
+        "other": [
+          "125 Kudos"
+        ]
       }
     },
     {
@@ -5163,7 +6291,16 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "fletching",
+            "level": 10
+          },
+          {
+            "skill": "smithing",
+            "level": 20
+          }
+        ]
       }
     },
     {
@@ -5172,11 +6309,20 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Shadow Realm",
-          "Kharid-et Dig Site"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 58
+          },
+          {
+            "skill": "divination",
+            "level": 60
+          }
         ],
-        "skill": []
+        "other": [
+          "Ability to see the Shadow Realm inside Kharid-et Dig Site"
+        ]
       }
     },
     {
@@ -5186,16 +6332,46 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "A Void Dance",
-          "Druidic Ritual",
-          "Quiet Before the Swarm",
-          "Imp Catcher",
-          "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania"
+          "A Void Dance"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "attack",
+            "level": 78
+          },
+          {
+            "skill": "construction",
+            "level": 70
+          },
+          {
+            "skill": "crafting",
+            "level": 70
+          },
+          {
+            "skill": "defence",
+            "level": 25
+          },
+          {
+            "skill": "firemaking",
+            "level": 71
+          },
+          {
+            "skill": "magic",
+            "level": 80
+          },
+          {
+            "skill": "smithing",
+            "level": 70
+          },
+          {
+            "skill": "strength",
+            "level": 78
+          },
+          {
+            "skill": "summoning",
+            "level": 55
+          }
+        ]
       }
     },
     {
@@ -5214,12 +6390,16 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 59
+          }
         ],
-        "skill": []
+        "other": [
+          "Find and free Skaldrun from the frozen floors in Daemonheim"
+        ]
       }
     },
     {
@@ -5228,12 +6408,16 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 71
+          }
         ],
-        "skill": []
+        "other": [
+          "Find and free Skaldrun from the frozen floors in Daemonheim"
+        ]
       }
     },
     {
@@ -5242,12 +6426,16 @@
       "members": false,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 6
+          }
         ],
-        "skill": []
+        "other": [
+          "Find and free Skaldrun from the frozen floors in Daemonheim"
+        ]
       }
     },
     {
@@ -5269,7 +6457,24 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 50
+          },
+          {
+            "skill": "crafting",
+            "level": 43
+          },
+          {
+            "skill": "mining",
+            "level": 40
+          },
+          {
+            "skill": "strength",
+            "level": 45
+          }
+        ]
       }
     },
     {
@@ -5280,18 +6485,22 @@
       "requirements": {
         "quest": [
           "The Spirit of War",
-          "Vessel of the Harbinger",
-          "Rune Mythos",
-          "Necromancy!",
-          "Ghosts Ahoy",
-          "The Restless Ghost",
-          "Morytania",
-          "vessel souls",
-          "The Jack of Spades",
-          "Diamond in the Rough",
-          "Stolen Hearts"
+          "The Jack of Spades"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "archaeology",
+            "level": 86
+          },
+          {
+            "skill": "magic",
+            "level": 66
+          },
+          {
+            "skill": "necromancy",
+            "level": 75
+          }
+        ]
       }
     },
     {
@@ -5300,10 +6509,20 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "player-owned farm tutorial"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 40
+          },
+          {
+            "skill": "farming",
+            "level": 17
+          }
         ],
-        "skill": []
+        "other": [
+          "Complete the player-owned farm tutorial"
+        ]
       }
     },
     {
@@ -5313,7 +6532,12 @@
       "questPoints": 2,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -5333,10 +6557,14 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Troll Stronghold",
-          "Death Plateau"
+          "Troll Stronghold"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 28
+          }
+        ]
       }
     },
     {
@@ -5347,24 +6575,22 @@
       "requirements": {
         "quest": [
           "Impressing the Locals",
-          "Harbinger (miniquest)",
-          "Impressing the Locals",
-          "Eye for an Eye (miniquest)",
-          "Impressing the Locals",
-          "Jed Hunter (miniquest)",
-          "Impressing the Locals",
-          "Flag Fall (miniquest)",
-          "Impressing the Locals",
-          "Head of the Family (miniquest)",
-          "Impressing the Locals",
-          "Spiritual Enlightenment (miniquest)",
-          "Impressing the Locals",
-          "Meet the Assassin",
-          "player-owned port",
-          "Cyclosis",
-          "player-owned port"
+          "Harbinger (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 90
+          },
+          {
+            "skill": "farming",
+            "level": 86
+          },
+          {
+            "skill": "woodcutting",
+            "level": 90
+          }
+        ]
       }
     },
     {
@@ -5375,23 +6601,22 @@
       "requirements": {
         "quest": [
           "Extinction",
-          "Sins of the Father",
-          "Desperate Measures",
-          "Desperate Times",
-          "The Needle Skips",
-          "You Are It",
-          "base camp",
-          "Anachronia",
-          "Eye of Het II",
-          "Eye of Het I",
-          "City of Senntisten",
-          "Battle of the Monolith",
-          "Broken Home",
-          "Eyes in Their Stars",
-          "Naressa",
-          "Senntisten"
+          "Broken Home"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "divination",
+            "level": 80
+          },
+          {
+            "skill": "thieving",
+            "level": 60
+          }
+        ],
+        "other": [
+          "Complete the Eyes in Their Stars mystery",
+          "Meet Naressa in Senntisten"
+        ]
       }
     },
     {
@@ -5401,10 +6626,14 @@
       "questPoints": 5,
       "requirements": {
         "quest": [
-          "Biohazard",
-          "Plague City"
+          "Biohazard"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "ranged",
+            "level": 25
+          }
+        ]
       }
     },
     {
@@ -5414,14 +6643,18 @@
       "questPoints": 1,
       "requirements": {
         "quest": [
-          "Murder on the Border",
-          "New Foundations",
-          "Town Hall (Tier 1)",
-          "Command Centre (Tier 1)",
-          "Workshop (Tier 1)",
-          "Chapel (Tier 1)"
+          "Murder on the Border"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "construction",
+            "level": 50
+          },
+          {
+            "skill": "slayer",
+            "level": 10
+          }
+        ]
       }
     },
     {
@@ -5440,12 +6673,16 @@
       "members": true,
       "questPoints": 0,
       "requirements": {
-        "quest": [
-          "Skaldrun",
-          "frozen floors",
-          "Daemonheim"
+        "quest": [],
+        "skill": [
+          {
+            "skill": "dungeoneering",
+            "level": 23
+          }
         ],
-        "skill": []
+        "other": [
+          "Find and free Skaldrun from the frozen floors in Daemonheim"
+        ]
       }
     },
     {
@@ -5455,15 +6692,12 @@
       "questPoints": 0,
       "requirements": {
         "quest": [
-          "The Brink of Extinction",
-          "The Elder Kiln",
-          "Desert Treasure",
-          "The Dig Site",
-          "Troll Stronghold",
-          "Death Plateau",
-          "Morytania"
+          "The Brink of Extinction"
         ],
-        "skill": []
+        "skill": [],
+        "other": [
+          "Partial completion of Desert Treasure"
+        ]
       }
     },
     {
@@ -5487,7 +6721,28 @@
       "questPoints": 4,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 25
+          },
+          {
+            "skill": "herblore",
+            "level": 14
+          },
+          {
+            "skill": "magic",
+            "level": 14
+          },
+          {
+            "skill": "mining",
+            "level": 40
+          },
+          {
+            "skill": "thieving",
+            "level": 15
+          }
+        ]
       }
     },
     {
@@ -5497,7 +6752,12 @@
       "questPoints": 1,
       "requirements": {
         "quest": [],
-        "skill": []
+        "skill": [
+          {
+            "skill": "runecrafting",
+            "level": 35
+          }
+        ]
       }
     },
     {
@@ -5508,44 +6768,52 @@
       "requirements": {
         "quest": [
           "Defender of Varrock",
-          "Shield of Arrav",
-          "The Knight's Sword",
-          "Family Crest",
-          "What Lies Below",
-          "Kudos",
-          "Historian Minas",
-          "Varrock Museum",
           "Dream Mentor",
-          "Lunar Diplomacy",
-          "The Fremennik Trials",
-          "Lost City",
           "Shilo Village",
-          "Jungle Potion",
           "Temple of Ikov",
           "Legends' Quest",
-          "Heroes' Quest",
-          "Shield of Arrav",
-          "Dragon Slayer",
-          "quest points",
-          "quest points",
-          "Jungle Potion",
-          "quest points",
           "The Path of Glouphrie",
-          "The Eyes of Glouphrie",
-          "The Grand Tree",
-          "Tree Gnome Village",
-          "Waterfall Quest",
           "Tears of Guthix",
-          "quest points",
           "Wanted!",
-          "Recruitment Drive",
-          "Enter the Abyss (miniquest)",
-          "Morytania",
-          "The Hunt for Surok (miniquest)",
-          "What Lies Below",
-          "Warriors' Guild"
+          "The Hunt for Surok (miniquest)"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 25
+          },
+          {
+            "skill": "defence",
+            "level": 40
+          },
+          {
+            "skill": "farming",
+            "level": 65
+          },
+          {
+            "skill": "herblore",
+            "level": 65
+          },
+          {
+            "skill": "hunter",
+            "level": 55
+          },
+          {
+            "skill": "magic",
+            "level": 75
+          },
+          {
+            "skill": "summoning",
+            "level": 23
+          },
+          {
+            "skill": "thieving",
+            "level": 60
+          }
+        ],
+        "other": [
+          "Ability to enter the Warriors' Guild"
+        ]
       }
     },
     {
@@ -5565,16 +6833,26 @@
       "questPoints": 2,
       "requirements": {
         "quest": [
-          "Mourning's End Part II",
-          "Mourning's End Part I",
-          "Roving Elves",
-          "Regicide",
-          "Underground Pass",
-          "Waterfall Quest",
-          "Sheep Herder",
-          "Big Chompy Bird Hunting"
+          "Mourning's End Part II"
         ],
-        "skill": []
+        "skill": [
+          {
+            "skill": "agility",
+            "level": 69
+          },
+          {
+            "skill": "fletching",
+            "level": 70
+          },
+          {
+            "skill": "ranged",
+            "level": 75
+          },
+          {
+            "skill": "woodcutting",
+            "level": 75
+          }
+        ]
       }
     },
     {
